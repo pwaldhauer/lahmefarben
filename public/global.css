@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #333;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+.title {
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+	box-shadow: 0 1px 20px rgba(0,0,0,.08);
+	margin-bottom: 20px;
+}
+
+
+
+.colorBlock {
+}
+
+.colorBlock {
+	width: 30px;
+	display: flex;
+}
+.colorBlock div {
+	width: 50%;
+	aspect-ratio: 1;
+}
+.color-back {
+	background: black;
+}
+
+.color-all {
+	background-image: linear-gradient(tomato, yellow);
+}
+
+.color-red {
+	background: red;
+}
+.color-green {
+	background: green;
+}
+.color-yellow {
+	background: yellow;
+}
+.color-blue {
+	background: blue;
+}
+
+
+.fields .field:nth-child(1):before {
+	content: "Start";
+	padding: 10px;
+	display: block;
+
+	position: absolute;
+	left: -50px;
+}
+
+
+.fields .field:nth-child(20):before {
+	content: "Ziel";
+	padding: 10px;
+	display: block;
+
+	position: absolute;
+	left: -50px;
+}
+
+
+.fields .field:nth-child(1) {
+	grid-area: a;
+}
+.fields .field:nth-child(2) {
+	grid-area: b;
+}
+.fields .field:nth-child(3) {
+	grid-area: c;
+}
+.fields .field:nth-child(4) {
+	grid-area: d;
+}
+.fields .field:nth-child(5) {
+	grid-area: e;
+}
+.fields .field:nth-child(6) {
+	grid-area: f;
+}
+.fields .field:nth-child(7) {
+	grid-area: g;
+}
+.fields .field:nth-child(8) {
+	grid-area: h;
+}
+.fields .field:nth-child(9) {
+	grid-area: i;
+}
+.fields .field:nth-child(10) {
+	grid-area: j;
+}
+.fields .field:nth-child(11) {
+	grid-area: k;
+}
+.fields .field:nth-child(12) {
+	grid-area: l;
+}
+.fields .field:nth-child(13) {
+	grid-area: m;
+}
+.fields .field:nth-child(14) {
+	grid-area: n;
+}
+.fields .field:nth-child(15) {
+	grid-area: o;
+}
+
+.fields .field:nth-child(16) {
+	grid-area: p;
+}
+
+.fields .field:nth-child(17) {
+	grid-area: q;
+}
+
+.fields .field:nth-child(18) {
+	grid-area: r;
+}
+.fields .field:nth-child(19) {
+	grid-area: s;
+}
+.fields .field:nth-child(20) {
+	grid-area: t;
+}
